@@ -1,0 +1,79 @@
+/* adding font */
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+header{
+    background-color: #FFF3E7;
+}
+/* banner */
+.banner{
+    margin-top: 60px;
+    padding: 0 60px;
+}
+.banner-content{
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+.ban-head{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.ban-des{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    display: inline block;
+    background-color: #FF900E;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #FF900E;
+    border: 1px solid #FF900E;;
+    color: white;
+}
+.btn1:hover{
+    background-color: #FFF3E7;
+    border: 1px solid #FF900E;
+    color: black;
+}
+.img1{
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background: fixed;
+    margin-bottom: 20px;
+}
